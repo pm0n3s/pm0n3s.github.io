@@ -1,0 +1,46 @@
+body {
+    font-family: "Vesterbro","Helvetica Neue",Helvetica,sans-serif;
+    background-color: #e9cdaa;
+}
+.intro {
+    top: -20%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 120%;
+    vertical-align: top;
+    
+}
+.intro h1 {
+    font-size: 3.6rem;
+    letter-spacing: .02em;
+    line-height: 1.09;
+    font-weight: 900;
+}
+
+@media only screen and (max-width: 739px){
+    .intro {
+        width: 100%;
+        text-align: center;
+    }
+    img {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 740px){
+    .intro {
+        width: 49%;
+        text-align: right;
+        display: inline-block;
+    }
+    img {
+        width: 49%
+    }
+}
+
+@media only screen and (min-width: 1024px){
+    img {
+        width: 502px;
+    }
+}
